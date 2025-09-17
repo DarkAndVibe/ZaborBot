@@ -1,0 +1,15 @@
+{
+  "name": "ZaborCalculator Bot",
+  "description": "Telegram bot for fence cost calculation",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token from @BotFather",
+      "value": "7614942762:AAGboaA9MoTVUHhl4aXdTj6Wf1PgYZPRW2Q"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/jincod/dotnetcore-buildpack"
+    }
+  ]
+}
